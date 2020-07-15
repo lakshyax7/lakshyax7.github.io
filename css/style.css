@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../22.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 10px solid transparent;
+	transition: 0.6s ease;
+	display: block;
+	line-height: 30px;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+
+}
+ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+ul li:hover > ul{
+	display: block;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.main{
+	max-width: 1400px;
+	margin: auto;
+}
+.title h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.title h2{
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+}
+.title h3{
+	position: absolute;
+	top: 90%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+	}
+.title h4{
+	position: absolute;
+	top: 225%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	}
+.title li{
+	position: absolute;
+	top: 220%;
+	left: 58%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 90px;
+}
+.title h2{
+ color: #fff;
+ font-size: 20px;
+}
+.title h3{
+ color: #fff;
+ font-size: 20px;
+}
+.title h4{
+ color: #000;
+ font-size: 20px;
+}
+.title li{
+	color: #000;
+	font-size: 50px;
+}
+.button{
+	position: absolute;
+	top: 158%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+	transition: 0.6s ease;
+
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+
+
+}
